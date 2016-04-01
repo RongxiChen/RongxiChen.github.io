@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+  font-family: Comic Sans MS, Monotype Corsiva, cursive;
+  color: #222; /*dark gray*/
+  line-height: 1.5em;
+  margin:0 auto;
+  background-color: rgb(243,190,182); /*warm pink*/
+  max-width: 650px;
+  min-width: 180px;
+  padding:40px;
+}
+
+#wrap {
+  max-width: 650px;
+  min-width:180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*links*/
+
+a {
+  color: #222; /*body color*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: #222; /*body color*/
+}
+
+a:hover {
+  color: rgb(250,221,245); /*light pink*/
+}
+
+/*main*/
+
+nav > ul {
+  width: 200px;
+  padding: 10px;
+  margin: 15px auto;
+  border-top: 2.5px solid #222;
+  border-bottom: 1.5px solid #222;
+  text-align: center;
+  list-style-type: none;
+  letter-spacing: 0.15em;
+}
+
+nav li {
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(120,128,117); /*green*/
+}
+
+h2{
+  background-color: rgb(184,181,162);/*green*/
+  text-transform: uppercase;
+}
+
+footer{
+  font-size: 12px;
+}
