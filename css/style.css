@@ -1,71 +1,166 @@
-/* style.css */
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 
-body {
-  font-family: Comic Sans MS, Monotype Corsiva, cursive;
-  color: #222; /*dark gray*/
-  line-height: 1.5em;
-  margin:0 auto;
-  background-color: rgb(243,190,182); /*warm pink*/
-  max-width: 650px;
-  min-width: 180px;
-  padding:40px;
+body{
+  font-family:Georgia,Times,'Gloria+Hallelujah',serif;
+  line-height:1.5;
 }
 
-#wrap {
-  max-width: 650px;
+#wrapper {
+  max-width:960px;
   min-width:180px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/*links*/
-
-a {
-  color: #222; /*body color*/
-  text-decoration: none;
-}
-
-a:visited {
-  color: #222; /*body color*/
-}
-
-a:hover {
-  color: rgb(250,221,245); /*light pink*/
-}
-
-/*main*/
-
-nav > ul {
-  width: 200px;
-  padding: 10px;
-  margin: 15px auto;
-  border-top: 2.5px solid #222;
-  border-bottom: 1.5px solid #222;
-  text-align: center;
-  list-style-type: none;
-  letter-spacing: 0.15em;
-}
-
-nav li {
-  font-size: 20px;
-}
-
-header {
-  text-align: center;
-  letter-spacing: 0.15em;
-  margin: 0 auto;
+  margin:0 auto;
+  text-align:center;
+  padding:25px;
 }
 
 h1 {
-  font-size: 40px;
-  color: rgb(120,128,117); /*green*/
+  font-family:'Gloria Hallelujah';
+  padding:20px;
+  font-size: 50px;
+  letter-spacing: 0.1em;
 }
 
-h2{
-  background-color: rgb(184,181,162);/*green*/
-  text-transform: uppercase;
+h2 {
+  font-family:'Gloria Hallelujah';
+  letter-spacing: 0.1em;
 }
 
-footer{
-  font-size: 12px;
+nav li{
+  display:inline;
+  margin:0 auto;
+  padding:20px;
+  margin:10px;
+  text-decoration: none;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+.education,.gastronome,.movie {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.education-slidebar,.gastronome-slidebar,.movie-slidebar,.address-slidebar {
+  font-family: 'Gloria Hallelujah';
+  float: left;
+  padding: 10px;
+  margin:8px auto;
+}
+
+/* links */
+a {
+  color: rgb(252,157,154);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(146,210,194);
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+li{
+  list-style: none;
+}
+
+ /* nav-slidebar */
+.slidebar{
+  display: block;
+  width:280px;
+  padding:20px;
+  margin:5px;
+  float:left;
+  background-color: rgb(252,157,154);
+}
+
+.slidebar nav ul{
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slidebar nav .nav-list {
+  margin-top: 10px;
+}
+
+
+.slidebar nav .nav-list li a{
+  text-decoration: none;
+  color: #222;
+}
+
+.slidebar nav .nav-list li a:hover{
+  color:rgb(181,249,255);
+)
+}
+
+.name {
+  font-family: 'Gloria Hallelujah';
+  width: 100px;
+  font-size: 28px;
+}
+
+.site-header{
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid #222;
+}
+
+.site-noline-header{
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+main {
+  display: block;
+  position:relative;
+  padding: 0 50px;
+  max-width: 900px;
+  min-width: 60px;
+  margin: 5px;
+  overflow: auto;
+}
+
+section {
+  background-color: /* add color */
+  padding:100px;
+  margin-bottom: 1.5em;
+}
+
+p {
+  font-size: 18px;
+}
+
+.food{
+  text-align: center;
+  padding: 20px;
+}
+
+.education-details {
+  text-align: center;
+}
+
+
+address p {
+  padding: 50px auto;
+  margin-bottom: 1.5em;
+  margin-top: 5em;
+  display: inline;
+}
+
+footer {
+  font-family: 'Gloria Hallelujah';
+  display: inline;
+  padding: 20px;
 }
